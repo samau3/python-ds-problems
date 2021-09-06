@@ -7,3 +7,7 @@ def last_element(lst):
         >>> last_element([]) is None
         True
     """
+    if not lst:
+        return None
+    else:
+        return lst[-1]
