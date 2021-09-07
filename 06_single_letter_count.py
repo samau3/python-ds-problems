@@ -16,3 +16,5 @@ def single_letter_count(word, letter):
         if ltr == letter:
             count += 1
     return count
+
+    # use .count() instead

@@ -16,3 +16,5 @@ def multiple_letter_count(phrase):
     return letter_list
 
     # letter_list = {letter for letter in phrase }
+
+    # .get() would be more effective/cleaner

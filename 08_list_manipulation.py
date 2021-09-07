@@ -51,11 +51,11 @@ def list_manipulation(lst, command, location, value=None):
             - if end lst.append(value) return lst
             - if beginning lst.insert(0, value) return lst
     """
-
+    #global constants so should move to top
     COMMANDS = ["add", "remove"]
     LOCATIONS = ["beginning", "end"]
 
-    def command_add():
+    def command_add(): # move the function definitions outside of the function
         if location == "end":
             lst.append(value)
         else:

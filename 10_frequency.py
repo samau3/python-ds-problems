@@ -13,3 +13,5 @@ def frequency(lst, search_term):
         if item == search_term:
             count += 1
     return count
+
+    # use built in .count()
